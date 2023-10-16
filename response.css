@@ -44,18 +44,27 @@
   }
   .displaydesk {
     position: absolute;
-    margin-top: -50.2%;
+    margin-top: -49.2%;
     display: flex;
-    margin-left: 50%;
-    width: 600px;
-    height: 900px;
+    margin-left: 47%;
+    width: 400px;
+    height: 600px;
     object-fit: cover;
   }
   .firstimg {
-    margin-left: 200px;
+    margin-left: 10%;
     position: relative;
-    width: 600px;
+    width: 400px;
     object-fit: cover;
+  }
+  @media screen and (max-width: 800px) {
+    .displaydesk {
+      margin-top: -605px;
+      width: 350px;
+    }
+    .firstimg {
+      margin-left: 20px;
+    }
   }
   @media  screen and (max-width: 500px) {
     .firstp {
